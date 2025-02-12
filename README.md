@@ -10,3 +10,17 @@ This project is a fully functional GraphQL-based CRUD (Create, Read, Update, Del
 - **Error Handling**: Provides meaningful messages for missing or invalid data.
 - **Query Filtering**: Allows filtering restaurants by `id` or `name`.
 - **Modular Design**: Uses Django’s model-based approach for extendability and maintainability.
+
+
+## Technologies Used
+- **Django** – Web framework for backend development.
+- **Graphene-Django** – GraphQL API integration.
+- **SQLite** – Default database (can be switched to PostgreSQL or MySQL).
+- **Python 3.8+** – Core language for the project.
+
+## Installation & Setup
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/iburr/graphql-byexp.git
+cd graphql-byexp
