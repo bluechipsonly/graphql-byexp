@@ -18,9 +18,9 @@ This project is a fully functional GraphQL-based CRUD (Create, Read, Update, Del
   - **Updating database:** You can update the database in settings.py
 - **Python 3.12** – Core language for the project.
 
-## Installation & Setup
+### Installation & Setup
 
-### 1. Clone the Repository
+## Clone the Repository
 ```bash
 git clone https://github.com/iburr/graphql-byexp.git
 ls -l (to verify files are there)
@@ -38,7 +38,7 @@ source .venv/bin/activate
 
 # May already be setup automatically upon git clone
 ```
-## Installing dependencies
+# Installing dependencies
 ```bash
 uv add Django
 uv add graphene-django
@@ -46,12 +46,12 @@ uv add graphene-django
 # May already be setup automatically upon git clone
 ```
 
-## Applying migrations
+# Applying migrations
 ```bash
 python manage.py makemigrations
 python manage.py migrate
 ```
-## Start the Server
+# Start the Server
 ```bash
 python manage.py runserver
 ```
@@ -61,9 +61,9 @@ python manage.py runserver
   - /admin (Optional GUI (uses Djangos) you will have to create a superuser to be able to access the url path)
   - Refer to: https://docs.graphene-python.org/projects/django/en/latest/
 
-### GraphQL Queries and Mutations
+## GraphQL Queries and Mutations
 
-## Fetch all Restaurants
+# Fetch all Restaurants
 ```graphql
 {
   restaurants {
@@ -73,7 +73,7 @@ python manage.py runserver
   }
 }
 ```
-## Fetch a Restaurant by ID
+# Fetch a Restaurant by ID
 ```graphql
 {
   restaurants(id: 1) {
@@ -84,7 +84,7 @@ python manage.py runserver
 }
 ```
 
-## Creating a Restaurant
+# Creating a Restaurant
 ```graphql
 mutation {
   createRestaurant(name: "Pizza Palace", address: "123 Main St") {
@@ -98,7 +98,7 @@ mutation {
   }
 }
 ```
-## Updating Restaurant information
+# Updating Restaurant information
 ```graphql
 id values go by index 0,1,2,3,4,5 etc.
 
@@ -114,7 +114,7 @@ mutation {
   }
 }
 ```
-## Deleting Restaurant
+# Deleting Restaurant
 ```graphql
 mutation {
   deleteRestaurant(id: 1) {
