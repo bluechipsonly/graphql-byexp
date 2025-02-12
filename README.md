@@ -27,10 +27,10 @@ ls -l (to verify files are there)
 cd graphql-byexp
 ```
 - **Setting up a Virtual enviorment**
-- I used uv to work with and manage my depedencies, versions, and files for this project
-- Alternatively you can use pip or python install depending on what you need, whether it is version control or executables
-- If you rather use uv (which I recommend anyways click the link below)
-- **uv Documentation:** [https://docs.astral.sh/uv/](https://docs.astral.sh/uv/)
+  - I used uv to work with and manage my depedencies, versions, and files for this project
+  - Alternatively you can use pip or python install depending on what you need, whether it is version control or executables
+  - If you rather use uv (which I recommend anyways click the link below)
+  - **uv Documentation:** [https://docs.astral.sh/uv/](https://docs.astral.sh/uv/)
 
 ```bash
 uv venv .venv
