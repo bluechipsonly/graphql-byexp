@@ -1,8 +1,7 @@
 # Django GraphQL CRUD API
 
 ## Overview
-This project is a fully functional GraphQL-based CRUD (Create, Read, Update, Delete) application built using Django and GraphQL. It provides an API for managing restaurant data with support for queries and mutations. Designed for efficient and structured data handling, this application enables seamless interaction through GraphQL endpoints.  
-**Made for educational purposes.**
+This project is a fully functional GraphQL-based CRUD (Create, Read, Update, Delete) application built using Django and GraphQL. It provides an API Endpoint for managing simulated restaurant data with support for queries and mutations. Designed for efficient and structured data handling, this application enables seamless interaction through GraphQL endpoints.
 
 ## Features
 - **GraphQL API**: Implements GraphQL using `graphene-django`, allowing efficient data retrieval and manipulation.
