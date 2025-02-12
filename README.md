@@ -131,7 +131,9 @@ mutation {
 - https://docs.astral.sh/uv/
 - https://graphql.org/learn/schema/
 
- 
+## DevNotes:
+- You will notice a lot of the .py files were left alone and may see some comments I did not leave.
+- I just added on top of what django gave me when starting my project. 
 
 
 
