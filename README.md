@@ -51,7 +51,7 @@ uv add graphene-django
 python manage.py makemigrations
 python manage.py migrate
 ```
-**Start the Server**
+- **Start the Server**
 ```bash
 python manage.py runserver
 ```
@@ -123,7 +123,7 @@ mutation {
   }
 }
 ```
-## Refrences & Research 
+## References & Research 
 - https://docs.djangoproject.com/en/4.0/topics/install/#how-to-install-django
 - https://discuss.python.org/t/what-are-the-differences-between-str-and-repr-in-class-methods/44142/4
 - https://docs.graphene-python.org/projects/django/en/latest/
