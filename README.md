@@ -56,7 +56,7 @@ python manage.py migrate
 python manage.py runserver
 ```
 - Visit the GraphQL API at:
-  - http://127.0.0.1:8000/
+  - http://localhost:8000/
   - /graphql (main GUI)
   - /admin (Optional GUI (uses Djangos) you will have to create a superuser to be able to access the url path)
   - Refer to: https://docs.graphene-python.org/projects/django/en/latest/
