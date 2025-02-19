@@ -22,7 +22,7 @@ This project is a fully functional GraphQL-based CRUD (Create, Read, Update, Del
 
 - **Clone the Repository**
 ```bash
-git clone https://github.com/iburr/graphql-byexp.git
+git clone https://github.com/bluechipsonly/graphql-byexp.git
 ls -l (to verify files are there)
 cd graphql-byexp
 ```
